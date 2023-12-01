@@ -1,0 +1,87 @@
+/* KFCpage.css */
+
+body {
+
+  /* White background color */
+  margin: 0;
+  /* Remove default body margin */
+}
+
+.KFCpage {
+  background: linear-gradient(to bottom, #ffffff, #000);
+  height: 100vh;
+}
+
+.Container {
+  display: flex;
+  margin-top: 150px;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.kfc {
+  flex: 1;
+}
+
+.img1 {
+  width: 800px;
+  /* Adjust the width as needed */
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 40px;
+  margin-left: 20px;
+  transition: 0.2s ease-in-out;
+  /* Adjust the margin to move the image to the right */
+}
+
+.img1:hover {
+  transform: scale(1.013124);
+  box-shadow: 0 10px 40px;
+}
+
+.Heading {
+  flex: 1;
+  padding: 20px;
+}
+
+.heading3 {
+  color: #d14500;
+  font-size: 34px;
+  /* KFC's signature color */
+}
+
+/* Styles for the form with a red background and white text */
+.Heading p {
+  background-color: #d1460069;
+  backdrop-filter: blur(10px);
+  /* Red background color for the form */
+  color: #ffffff;
+  /* White text color */
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 40px rgb(0,0,0);
+  transition: 0.2s ease-in-out;
+  /* Box shadow for a subtle lift */
+}
+
+.Heading p:hover {
+  transform: scale(1.013124);
+  box-shadow: 0 10px 40px rgb(0,0,0);
+}
+
+.signUp {
+  background-color: #d14500;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 23px;
+  border: none;
+  margin-top: 30px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.signUp:hover {
+  background-color: #a03500;
+  /* Darker shade on hover */
+}
